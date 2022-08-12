@@ -1,0 +1,36 @@
+.download {
+  width: 311px;
+  margin: 170px auto 170px auto;
+  // tablet
+  @media (min-width: 768px) {
+    width: 600px;
+  }
+  // desktop
+  @media (min-width: 1024px) {
+    width: 730px;
+    margin: 150px auto;
+  }
+
+  .text {
+    margin-top: 16px;
+    // tablet
+    @media (min-width: 768px) {
+      margin-top: 19px;
+      font-size: 18px;
+    }
+  }
+
+  .buttons {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    //tablet
+    @media (min-width: 768px) {
+      flex-direction: row;
+      width: 470px;
+      margin: 48px auto 0 auto;
+      gap: 16px;
+    }
+  }
+}

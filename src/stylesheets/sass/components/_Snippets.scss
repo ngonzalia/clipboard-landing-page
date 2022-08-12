@@ -1,0 +1,64 @@
+.snippets {
+  margin: 160px auto 0 auto;
+  width: 311px;
+  // tablet
+  @media (min-width: 768px) {
+    width: 500px;
+  }
+  // desktop
+  @media (min-width: 1440px) {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  &__text {
+    margin-top: 16px;
+    // desktop
+    @media (min-width: 1440px) {
+      margin: 19px auto 0 auto;
+      width: 730px;
+      font-size: 1.8rem !important;
+      letter-spacing: 0.135px !important;
+    }
+  }
+
+  &__section {
+    margin: 65px 0 0 0;
+    // desktop
+    @media (min-width: 1440px) {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: row;
+      gap: 110px;
+    }
+  }
+
+  &__img {
+    width: 311px;
+    height: 238px;
+    // tablet
+    @media (min-width: 768px) {
+      width: 100%;
+      height: auto;
+    }
+    // desktop
+    @media (min-width: 1440px) {
+      width: 752px;
+      height: 572px;
+      margin: 0 0 0 -32px;
+    }
+  }
+
+  &__cards {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    // desktop
+    @media (min-width: 1440px) {
+      margin-top: 68px;
+      gap: 56px;
+      max-height: 406px;
+    }
+  }
+}

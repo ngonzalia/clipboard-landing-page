@@ -1,0 +1,17 @@
+.brands {
+  margin-top: 131px;
+  height: 439px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  // desktop
+  @media (min-width: 1200px) {
+    margin: 150px auto 0 auto;
+    height: 72px;
+    width: 1110px;
+    flex-direction: row;
+  }
+}

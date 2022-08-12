@@ -1,0 +1,42 @@
+body {
+  background: url(../assets/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  // desktop
+  @media (min-width: 1024px) {
+    background: url(../assets/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.main {
+  margin: 64px auto 0 auto;
+  width: 311px;
+  // tablet
+  @media (min-width: 768px) {
+    width: 600px;
+  }
+  // desktop
+  @media (min-width: 1024px) {
+    margin-top: 56px;
+    width: 730px;
+  }
+
+  .text {
+    margin-top: 16px;
+  }
+  .buttons {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    // tablet
+    @media (min-width: 768px) {
+      margin: 48px auto 0 auto;
+      width: 470px;
+      flex-direction: row;
+      gap: 16px;
+    }
+  }
+}
