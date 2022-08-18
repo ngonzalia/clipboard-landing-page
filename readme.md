@@ -30,7 +30,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-YZpDLdLTBT)
 - Live Site URL: [Clipboard](https://clipboard-nachogonzalia.vercel.app/)
 
 ## My process
