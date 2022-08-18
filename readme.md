@@ -61,7 +61,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@nachogonzalia](https://www.frontendmentor.io/profile/nachogonzalia)
 - CodePen - [@nachogonzalia](https://codepen.io/nachogonzalia)
 - FreeCodeCamp - [@nachogonzalia](https://www.freecodecamp.org/nachogonzalia)
 
